@@ -1,0 +1,42 @@
+export const SAVE_TOKENS_CONSTANT = {
+  ACCESS_TOKEN: '@ACCESS_TOKEN',
+  REFRESH_TOKEN: '@REFRESH_TOKEN',
+  RESET_PASSWORD_TOKEN: '@RESET_PASSWORD_TOKEN',
+  USER_PROFILE_COMPLETE: '@USER_PROFILE_COMPLETE',
+};
+export const USER_AUTH = '@userauth';
+
+export const typeConstants = {
+  // ── Auth ─────────────────────────────────────────────────────────────
+  SIGNUP: 'SIGNUP',
+  LOGIN: 'LOGIN',
+  CHECK_AUTH: 'CHECK_AUTH',
+  LOGOUT_AUTH: 'LOGOUT_AUTH',
+  FORGOT_PASSWORD: 'FORGOT_PASSWORD',
+  FORGOT_PASSWORD_OTP: 'FORGOT_PASSWORD_OTP',
+  RESET_PASSWORD: 'RESET_PASSWORD',
+  CHANGE_PASSWORD: 'CHANGE_PASSWORD',
+  VERIFY_OTP: 'VERIFY_OTP',
+  RESEND_OTP: 'RESEND_OTP',
+
+  // ── Technician Profile ────────────────────────────────────────────────
+  PROFILEUPDATE: 'PROFILEUPDATE',
+  PROFILEUPLOAD: 'PROFILEUPLOAD',
+  UPDATE_USER_INFO: 'UPDATE_USER_INFO',
+
+  // ── TODO: [FUNCTIONAL] Bookings — add when API is ready ───────────────
+  // GET_BOOKINGS: 'GET_BOOKINGS',
+  // GET_BOOKING_BY_ID: 'GET_BOOKING_BY_ID',
+  // ACCEPT_BOOKING: 'ACCEPT_BOOKING',
+  // REJECT_BOOKING: 'REJECT_BOOKING',
+  // COMPLETE_BOOKING: 'COMPLETE_BOOKING',
+
+  // ── TODO: [FUNCTIONAL] Services — add when API is ready ───────────────
+  // GET_SERVICES: 'GET_SERVICES',
+  // ADD_SERVICE: 'ADD_SERVICE',
+  // UPDATE_SERVICE: 'UPDATE_SERVICE',
+  // DELETE_SERVICE: 'DELETE_SERVICE',
+
+  // ── TODO: [FUNCTIONAL] Chat ───────────────────────────────────────────
+  // GET_CHAT_HISTORY: 'GET_CHAT_HISTORY',
+};
