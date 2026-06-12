@@ -1,0 +1,40 @@
+const colors = {
+  primary: ['#FFDF00', '#F6D108', '#EDC211', '#E3B419', '#DAA521'],
+  secondary: '#AD6014',
+  secondaryGradient: ['#F4E22F', '#F9EF8B'],
+  lightPurple: '#9C75CC',
+  purple: '#9C75CC1A',
+  link: '#7E48E2',
+  white: '#ffffff',
+  sky: '#1B9ADB',
+  black: '#000000',
+  orange: '#FF6A00',
+  parrot: '#C91C00',
+  lightGreen: '#14C0421A',
+  green: '#035D1B',
+  darkGreen: '#022C35',
+  lightSkyBlue: '#7ACBDD1A',
+  lightSky: '#7ACBDD',
+  btnsecondary: '#7ACBDD',
+  skyblue: '#7ACBDD1A',
+  grey: '#5F5C771A',
+  description: '#858585',
+  transparent: 'transparent',
+  lightYellow: '#FFD601',
+  gray: '#c4c0c0',
+  inputBackground: '#FFFFFF1A',
+  bottomSheetBackground: '#192D1B',
+
+  // Extra app-specific
+  forestDark: '#0a1a0d',
+  forestOverlay: 'rgba(0,0,0,0.45)',
+  forestOverlayDeep: 'rgba(0,0,0,0.75)',
+  borderGold: '#031705',
+  textMuted: 'rgba(255,255,255,0.55)',
+  textHint: 'rgba(255,255,255,0.35)',
+  btnOutlineBorder: 'rgba(255,255,255,0.22)',
+  btnOutlineBg: 'rgba(255,255,255,0.06)',
+};
+
+export default colors;
+// background: #FFFFFF1A;
